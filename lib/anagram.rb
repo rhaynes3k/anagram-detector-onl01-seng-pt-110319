@@ -10,14 +10,10 @@ class Anagram
     fin = []
     s = word.split("")
     arr = array.collect do|w|w
-    #i = 0
     if w.split("").sort == s.sort
       fin.push(w)
-  #binding.pry
     end
-    
- end
-    
+    end
     fin
   end
   
