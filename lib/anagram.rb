@@ -7,8 +7,14 @@ class Anagram
     @word = word
   end
   def match(array)
-    s = word.split("").sort
-    arr = array.collect{|w|w.split("").sort.find{|x|x == s}}
-    #binding.pry
+    fin = []
+    s = word.split("")
+    arr = array.collect do|w|
+    if w.split("").sort == s.sort
+      fin.push(w)
+    end
+    end
+    fin
   end
+  
 end
