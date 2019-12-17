@@ -13,11 +13,13 @@ class Anagram
     i = 0
     if arr[i].split("").sort == s.sort
       fin.push(arr[i])
-      i += 1
+      
     else
       fin
+      
       #binding.pry
     end
+    i += 1
     # s = word.split("").sort.join
     # arr = array.collect{|w|w.split("").sort.join}
     # arr.find_all{|a|a == s}
