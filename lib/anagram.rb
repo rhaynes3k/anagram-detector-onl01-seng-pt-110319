@@ -18,7 +18,7 @@ class Anagram
       i += 1
       fin
       
-      binding.pry
+      #binding.pry
     end
     
     # s = word.split("").sort.join
