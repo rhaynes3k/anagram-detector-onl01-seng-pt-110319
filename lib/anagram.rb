@@ -24,6 +24,7 @@ class Anagram
     # s = word.split("").sort.join
     # arr = array.collect{|w|w.split("").sort.join}
     # arr.find_all{|a|a == s}
+    
     fin
   end
   
