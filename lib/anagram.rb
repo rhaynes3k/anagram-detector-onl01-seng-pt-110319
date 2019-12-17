@@ -13,12 +13,7 @@ class Anagram
     #i = 0
     if w.split("").sort == s.sort
       fin.push(w)
-      
-    else
-      #i += 1
-      
-      
-      #binding.pry
+  #binding.pry
     end
     
     # s = word.split("").sort.join
