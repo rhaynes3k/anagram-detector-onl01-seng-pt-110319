@@ -9,13 +9,13 @@ class Anagram
   def match(array)
     fin = []
     s = word.split("")
-    arr = array.collect{|w|w}
-    i = 0
-    if arr[i].split("").sort == s.sort
-      fin.push(arr[i])
+    arr = array.collect do|w|w
+    #i = 0
+    if w.split("").sort == s.sort
+      fin.push(w)
       
     else
-      i += 1
+      #i += 1
       
       
       #binding.pry
